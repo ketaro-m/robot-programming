@@ -503,12 +503,12 @@
     </model>
 
     <!-- my_model -->
-    <!-- <model name="my_model" > -->
-    <!--   <pose>0.5 -0.4 1 0 0 0</pose> -->
-    <!--   <include> -->
-    <!--     <uri>model://my_model</uri> -->
-    <!--   </include> -->
-    <!-- </model> -->
+    <model name="my_model" >
+      <pose>0.5 -0.4 1 0 0 0</pose>
+      <include>
+      <uri>model://my_model</uri>
+      </include>
+    </model>
 
     <!-- my primitive model -->
     <!-- <model name="sphere"> -->
